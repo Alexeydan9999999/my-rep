@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "gilroy-medium";
+  src: url(./src/gilroy-bold.ttf);
+}
+@font-face {
+  font-family: "gilroy-bold";
+  src: url(./src/gilroy-bold.ttf);
+}
+body {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  font-family: "gilroy-medium";
+  width: 375px;
+  height: 815px;
+}
+
+a {
+  color: #828282;
+  text-decoration: none;
+}
+
+.navigition_menu {
+  font-family: "gilroy-bold";
+  font-size: 34px;
+  color: #828282;
+  margin-top: 65px;
+}
+
+.navigition__menu1 {
+  margin-left: 26px;
+  margin-top: 100px;
+}
+.navigition__menu1:hover {
+  color: #070707;
+}
+
+.navigition__menu2 {
+  width: 180px;
+  margin-left: 26px;
+  margin-top: 65px;
+}
+
+.navigition__menu3,
+.navigition__menu4,
+.navigition__menu5 {
+  margin-left: 26px;
+  margin-top: 65px;
+}
+
+.navigition__menu6 {
+  margin-left: 200px;
+}
+
+.name__block3 {
+  font-family: "gilroy-bold";
+  color: #828282;
+  width: 160px;
+  height: 60px;
+  font-size: 34px;
+  margin-top: 104px;
+  margin-left: 250px;
+  transform: rotate(90deg);
+}
